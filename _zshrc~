@@ -203,7 +203,7 @@ function aptin() { sudo apt-get --assume-yes install "$@" ; }
 function pacin() { sudo pacman -S --noconfirm "$@" ; }
 function pakin() { sudo packer -S --noconfirm --auronly --noedit "$@" ; }
 
-/usr/bin/screenfetch    # run screenfetch 
+#/usr/bin/screenfetch    # run screenfetch 
 /usr/bin/archey         # run archey
 fortune -s | cowsay
 figlet -c "F E T"
